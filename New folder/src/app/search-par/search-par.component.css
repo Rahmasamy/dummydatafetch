@@ -1,0 +1,46 @@
+.parent-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
+  flex-direction: column;
+  width: 82%;
+  border-radius: 20px;
+  margin: auto;
+  padding: 1rem;
+}
+h2 {
+  width: 100%;
+  text-align: start;
+}
+.inputParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+input {
+  width: 100%;
+}
+button {
+  margin-left: 1rem;
+  padding: 0.9rem 2rem;
+  color: #fff;
+  background-color: #a79900;
+  outline: none;
+  border: 1px solid #6c791c;
+}
+
+button:hover {
+  background-color: white;
+  border: 1px solid #6c791c;
+  color: #6c791c;
+  cursor: pointer;
+}
+.parentHB {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
